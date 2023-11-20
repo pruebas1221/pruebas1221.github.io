@@ -72,6 +72,16 @@ section {
     align-items: center;
 }
 
+section-valores {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  
+	height: 100vh;
+	width: 700px;
+  
+}
+
 section-about {
     height: 4vh; /* Tamaño de la sección, en este caso, la altura de la ventana gráfica del navegador */
     background-color: #272727;
@@ -4446,12 +4456,48 @@ blockquote cite {
 
 /** @section Footers */
 .footer-classic .footer-inner-1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	padding: 50px 0;
+    color: #adb8c0;
+    background: #31404a;
+}
+
+.footer-classic .footer-inner-1 h1,
+.footer-classic .footer-inner-1 h2,
+.footer-classic .footer-inner-1 h3,
+.footer-classic .footer-inner-1 h4,
+.footer-classic .footer-inner-1 h5,
+.footer-classic .footer-inner-1 h6,
+.footer-classic .footer-inner-1 [class^='heading-'] {
+    color: #adb8c0;
+    justify-content: center;
+	align-items: center; /* Center headings within .footer-inner-1 */
+	display: flex;
+}
+
+
+.footer-classic .contact-list,
+.footer-classic .footer-list,
+.footer-classic .row {
+    text-align: left; /* Reset text-align for specific elements within the footer */
+}
+
+.footer-classic .footer-inner-1 {
 	padding: 50px 0;
 	color: #adb8c0;
 	background: #31404a;
 }
 
 .footer-classic .footer-inner-1 h1, .footer-classic .footer-inner-1 h2, .footer-classic .footer-inner-1 h3, .footer-classic .footer-inner-1 h4, .footer-classic .footer-inner-1 h5, .footer-classic .footer-inner-1 h6, .footer-classic .footer-inner-1 [class^='heading-'] {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+  
 	color: #adb8c0;
 }
 
@@ -4470,6 +4516,10 @@ blockquote cite {
 }
 
 .footer-classic * + .contact-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    
 	margin-top: 20px;
 }
 
@@ -4507,6 +4557,11 @@ blockquote cite {
 }
 
 .contact-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+  
 	line-height: 1.5;
 }
 
@@ -11817,6 +11872,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 
 
 .service-list {
+	font-size: 20px;
 	list-style: none;
 	padding: 0;
 	margin: 0;
