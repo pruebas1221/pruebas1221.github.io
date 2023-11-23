@@ -225,6 +225,75 @@
         </div>
       </section>
 
+     <!-- Nueva sección de FAQ -->
+<section class="section bg-light" id="faq">
+  <div class="container">
+    <div class="row row-30">
+      <div class="col-md-12 text-center">
+        <h3>Preguntas Frecuentes</h3>
+      </div>
+      <div class="col-md-4 wow fadeInUp">
+        <ul class="faq-list" id="faq-list-1">
+          <li class="faq-item">¿Cuál es el proceso para contratar sus servicios?
+            <div class="faq-answer">El proceso para contratar nuestros servicios es...</div>
+          </li>
+          <li class="faq-item">¿Cuáles son los tipos de buques que manejan?
+            <div class="faq-answer">Manejamos varios tipos de buques, incluyendo...</div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+        <ul class="faq-list" id="faq-list-2">
+          <li class="faq-item">¿Ofrecen servicios internacionales?
+            <div class="faq-answer">Sí, ofrecemos servicios internacionales y trabajamos en...</div>
+          </li>
+          <li class="faq-item">¿Cómo puedo contactarlos para obtener más información?
+            <div class="faq-answer">Puedes contactarnos a través de nuestro correo electrónico...</div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4 wow fadeInUp" data-wow-delay="0.6s">
+        <ul class="faq-list" id="faq-list-3">
+          <li class="faq-item">¿Cuál es su política de precios?
+            <div class="faq-answer">Nuestra política de precios se basa en...</div>
+          </li>
+          <li class="faq-item">¿Tienen alguna restricción en cuanto al tipo de carga que manejan?
+            <div class="faq-answer">Sí, tenemos algunas restricciones en cuanto al tipo de carga...</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .faq-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .faq-item {
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+
+  .faq-answer {
+    display: none;
+    margin-top: 10px;
+  }
+</style>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+  // Agregar un evento de clic a los elementos de la lista de preguntas frecuentes
+  $(".faq-item").click(function() {
+    // Toggle para mostrar u ocultar la respuesta
+    $(this).find(".faq-answer").slideToggle();
+    // Ocultar respuestas de otras preguntas
+    $(".faq-answer").not($(this).find(".faq-answer")).slideUp();
+  });
+</script>
+
 
       <style>
         /* Aplicar un margen superior a la segunda sección para separarlas en dispositivos iPhone SE */
