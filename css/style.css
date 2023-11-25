@@ -11912,7 +11912,7 @@ textarea {
     margin-top: 20px;
 }
 
-.btn-primary {
+.btn-primary-formulario {
     background-color: #007bff;
     color: #fff;
     padding: 10px 15px;
@@ -11921,7 +11921,7 @@ textarea {
     cursor: pointer;
 }
 
-.btn-primary:hover {
+.btn-primary-formulario:hover {
     background-color: #0056b3;
 }
 
