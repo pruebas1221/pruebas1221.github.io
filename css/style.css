@@ -11883,15 +11883,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	padding: 10px 0;
   }
   
-/* Reset de márgenes y padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Estilos generales del formulario */
-.mi-formulario {
+  .mi-formulario {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
@@ -11900,18 +11892,17 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
     background-color: #f9f9f9;
 }
 
-/* Estilos para los elementos del formulario */
-.form-group {
+.mi-formulario .form-group {
     margin-bottom: 15px;
 }
 
-label {
+.mi-formulario label {
     display: block;
     margin-bottom: 5px;
 }
 
-input,
-textarea {
+.mi-formulario input,
+.mi-formulario textarea {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
@@ -11919,16 +11910,11 @@ textarea {
     border-radius: 4px;
 }
 
-.small-text {
-    font-size: 12px;
-    color: #666;
+.mi-formulario .form-check {
+    margin-top: 10px;
 }
 
-.form-check {
-    margin-top: 20px;
-}
-
-.btn-primary {
+.mi-formulario .btn-primary {
     background-color: #007bff;
     color: #fff;
     padding: 10px 15px;
@@ -11937,6 +11923,7 @@ textarea {
     cursor: pointer;
 }
 
-.btn-primary:hover {
+.mi-formulario .btn-primary:hover {
     background-color: #0056b3;
 }
+
