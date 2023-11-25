@@ -263,6 +263,26 @@
     </div>
   </div>
 </section>
+<form method='POST' action='/php/enviar.php' class="mi-formulario section">
+  <div class="form-group">
+      <label for="nombre">Nombre:</label>
+      <input type="text" class="form-control" name='nombre' id="nombre" placeholder="Ingresa tu nombre...">
+  </div>
+  <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" name='email' id="email" placeholder="Ingresa tu email...">
+      <small id="emailHelp" class="form-text text-muted">Tu información está segura con nosotros.</small>
+  </div>
+  <div class="form-group">
+      <label for="mensaje">Mensaje:</label>
+      <textarea class="form-control" name='mensaje' id="mensaje" rows="5" placeholder="Escribe tu mensaje..."></textarea>
+  </div>
+  <div class="form-check">
+      <input type="checkbox" class="form-check-input" style="margin-left: -190px;" id="politicaPrivacidad" required>
+      <label class="form-check-label" for="politicaPrivacidad">Acepto la política de privacidad.</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
 
 <style>
   .faq-list {
