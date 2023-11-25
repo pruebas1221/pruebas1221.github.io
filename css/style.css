@@ -11882,8 +11882,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	border-bottom: 1px solid #ccc;
 	padding: 10px 0;
   }
-
-
+  
 /* Reset de márgenes y padding */
 * {
     margin: 0;
@@ -11941,4 +11940,3 @@ textarea {
 .btn-primary:hover {
     background-color: #0056b3;
 }
-
