@@ -5,7 +5,7 @@
 	$mensaje = "Nombre: ".$nombre."<br> Email: $email<br> Mensaje:".$_POST['mensaje'];
 
 
-	if(mail('tuEmail', $asunto, $mensaje)){
+	if(mail('desconectadosnow@gmail.com', $asunto, $mensaje)){
 		echo "Correo enviado";
 	}
  ?>
